@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Conditioner.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">smart-house</a> &gt; <a href="index.source.html" class="el_package">ru.netology.domain</a> &gt; <span class="el_source">Conditioner.java</span></div><h1>Conditioner.java</h1><pre class="source lang-java linenums">package ru.netology.domain;
+
+<span class="fc" id="L3">public class Conditioner {</span>
+<span class="fc" id="L4">    private int maxTemperature = 26;</span>
+<span class="fc" id="L5">    private int minTemperature = 16;</span>
+    private int currentTemperature;
+
+    public int getMaxTemperature() {
+<span class="fc" id="L9">        return maxTemperature;</span>
+    }
+
+    public int getMinTemperature() {
+<span class="fc" id="L13">        return minTemperature;</span>
+    }
+
+    public int getCurrentTemperature() {
+<span class="fc" id="L17">        return currentTemperature;</span>
+    }
+
+    public void setCurrentTemperature(int currentTemperature) {
+//        проверка, что текущ t меньше max
+<span class="fc bfc" id="L22" title="All 2 branches covered.">        if (currentTemperature &gt; maxTemperature)</span>
+//        если текущ t больше max, то return приведет к выходу
+//        и вернет последнее присвоенное знач, то есть 0
+<span class="fc" id="L25">            return;</span>
+//        проверка что текущ t больше min
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        if (currentTemperature &lt; minTemperature)</span>
+//            если текущ t меньше min, то return приведет к выходу
+//        и вернет последнее присвоенное знач, то есть 0
+<span class="fc" id="L30">            return;</span>
+//        если проверка проходит, то есть меньше max и больше min, то
+//        в поле currentTemperature текущего объекта записывается
+//        текущее значение переменной/параметра, то есть то, кот
+//        было передано в сеттер
+<span class="fc" id="L35">        this.currentTemperature = currentTemperature;</span>
+<span class="fc" id="L36">    }</span>
+
+    public void increaseCurrentTemperature() {
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (currentTemperature &lt; maxTemperature)</span>
+<span class="fc" id="L40">            currentTemperature++;</span>
+<span class="fc" id="L41">    }</span>
+
+    public void decreaseCurrentTemperature() {
+
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (currentTemperature &gt; minTemperature)</span>
+<span class="fc" id="L46">            currentTemperature--;</span>
+<span class="fc" id="L47">    }</span>
+}
+
+
+
+
+
+
+
+
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.domain.ConditionerTest" time="0.305" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Julia\Desktop\3.1_oop1\smart-house\target\test-classes;C:\Users\Julia\Desktop\3.1_oop1\smart-house\target\classes;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Julia\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Julia\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Julia\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Julia\.m2\repository\org\jacoco\org.jacoco.agent\0.8.5\org.jacoco.agent-0.8.5.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Julia\AppData\Local\Temp\surefire12274465269473377333\surefirebooter2994287953877599375.jar C:\Users\Julia\AppData\Local\Temp\surefire12274465269473377333 2020-09-21T22-31-07_002-jvmRun1 surefire5193067832598701490tmp surefire_016059407706384433432tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Julia\Desktop\3.1_oop1\smart-house\target\test-classes;C:\Users\Julia\Desktop\3.1_oop1\smart-house\target\classes;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Julia\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Julia\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Julia\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Julia\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Julia\.m2\repository\org\jacoco\org.jacoco.agent\0.8.5\org.jacoco.agent-0.8.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Julia"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Julia\Desktop\3.1_oop1\smart-house"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Julia\AppData\Local\Temp\surefire12274465269473377333\surefirebooter2994287953877599375.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10"/>
+    <property name="user.name" value="Julia"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\Julia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Julia\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.2"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Users\Julia\Desktop\3.1_oop1\smart-house"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.8+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldSetCurrentTemperatureOverMax" classname="ru.netology.domain.ConditionerTest" time="0.122"/>
+  <testcase name="shouldDecreaseCurrentTemperatureMin" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldDecreaseCurrentTemperatureBetweenMinMax" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldSetCurrentTemperatureMax" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldSetCurrentTemperatureMin" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldSetCurrentTemperatureUnderMin" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldIncreaseCurrentTemperatureMax" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldIncreaseCurrentTemperatureBetweenMinMax" classname="ru.netology.domain.ConditionerTest" time="0"/>
+  <testcase name="shouldSetCurrentTemperatureBetweenMinMax" classname="ru.netology.domain.ConditionerTest" time="0"/>
+</testsuite>

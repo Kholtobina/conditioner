@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.netology.domain.ConditionerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.305 s - in ru.netology.domain.ConditionerTest
